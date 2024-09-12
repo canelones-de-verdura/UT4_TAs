@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Ubuntu', 'sans-serif';
+    text-align: left;
+    background-color: rgb(239, 241, 245);
+    border-radius: 15px;
+    max-height: 200px;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 2em;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 125%;
+    margin: -10px 0px 0px 0px;
+}
+
+.card-content {
+    display: inline-flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.card-info {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px -30px 0px;
+}
+
+.assigned-to {
+    display: flex;
+    align-items: center;
+}

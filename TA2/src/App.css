@@ -1,0 +1,32 @@
+#root {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 125%;
+    margin: -10px 0px 0px 0px;
+}
+
+.card-content {
+    display: inline-flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.card-info {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px -30px 0px;
+}
+
+.assigned-to {
+    display: flex;
+    align-items: center;
+}
